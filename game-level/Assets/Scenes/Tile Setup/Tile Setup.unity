@@ -1689,8 +1689,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1117345468}
-  height: 15
-  zDisp: 4
+  height: 10
+  zDisp: 2
   cameraSpeed: 3
 --- !u!1 &1071949573
 GameObject:
