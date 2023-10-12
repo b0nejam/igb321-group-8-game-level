@@ -93,18 +93,18 @@ public class PlayerAvatar : MonoBehaviour {
         playerPosition = transform.position;
 
         //Forwards and Back
-        if (Input.GetKey("w")) {
+        if (Input.GetKey("d")) {
             playerPosition.z = playerPosition.z + moveSpeed * Time.deltaTime;
         }
-        else if (Input.GetKey("s")) {
+        else if (Input.GetKey("a")) {
             playerPosition.z = playerPosition.z - moveSpeed * Time.deltaTime;
         }
 
         //Strafing 
-        if (Input.GetKey("a")) {
+        if (Input.GetKey("w")) {
             playerPosition.x = playerPosition.x - moveSpeed * Time.deltaTime;
         }
-        else if (Input.GetKey("d")) {
+        else if (Input.GetKey("s")) {
             playerPosition.x = playerPosition.x + moveSpeed * Time.deltaTime;
         }
 
