@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tile Setup/Tile Setup.unity
     guid: 7928b1309a9cbbb4ab267d362bf54813
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Level 1.unity
+    guid: fa66be340cb82964f97f45a5a4a41a0b
+  - enabled: 1
+    path: Assets/Scenes/level 2/level 2.unity
+    guid: c0e3954edb463da4da604c12ad2d51c3
   m_configObjects: {}
