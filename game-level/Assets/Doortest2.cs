@@ -19,13 +19,13 @@ public class Doortest2 : MonoBehaviour
             //If closed, open
             if (!open)
             {
-                GetComponent<Animation>().Play("SO1");
+                GetComponent<Animation>().Play("Sonew");
                 open = true;
             }
             //Otherwise if open, close
             else if (open)
             {
-                GetComponent<Animation>().Play("SO2");
+                GetComponent<Animation>().Play("Sonew");
                 open = false;
             }
         }
