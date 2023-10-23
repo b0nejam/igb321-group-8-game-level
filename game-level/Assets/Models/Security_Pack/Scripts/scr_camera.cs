@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class scr_camera : MonoBehaviour {
+public class scr_camera2 : MonoBehaviour {
 
     public float rotate_amount;
     
