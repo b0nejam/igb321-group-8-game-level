@@ -11,13 +11,13 @@ public class PlayerAvatar : MonoBehaviour {
     private bool dead = false;
 
     //Movement
-    public float moveSpeed = 5;
+    public float moveSpeed = 5; 
     private Vector3 playerPosition;
     private Rigidbody rb;
 
     //Weapons
     public GameObject bullet;
-    private float MGFireTime = 0.075f;
+    public float MGFireTime = 0.075f;
     private float MGFireTimer;
     public int ammo = 500;
 
