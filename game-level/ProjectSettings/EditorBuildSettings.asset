@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/assigbnment base/Tile Setup.unity
+  - enabled: 0
+    path: Assets/Scenes/rnadom/assigbnment base/Tile Setup.unity
     guid: 7928b1309a9cbbb4ab267d362bf54813
+  - enabled: 1
+    path: Assets/Scenes/start of game/start cutscene.unity
+    guid: 2b7b2d8952b95544689b3acc6890ee5d
   - enabled: 1
     path: Assets/Scenes/Level 1/Level 1.unity
     guid: fa66be340cb82964f97f45a5a4a41a0b
