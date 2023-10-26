@@ -2796,7 +2796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  health: 650
+  health: 500
   agroRange: 8
   damage: 8
   rotationSpeed: 1
