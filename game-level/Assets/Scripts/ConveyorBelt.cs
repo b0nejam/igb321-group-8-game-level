@@ -22,12 +22,13 @@ public class ConveyorBelt : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        
+        // Move the conveyor belt texture to make it look like it's moving
         material.mainTextureOffset += new Vector2(0, 1) * conveyorSpeed * Time.deltaTime;
     }
 
     private void FixedUpdate()
     {
+        // For every item on the belt, add force to it in the direction given
         for (int i = 0; i <= onBelt.Count - 1; i++)
         {
             onBelt[i].GetComponent<Rigidbody>().AddForce(speed * direction);

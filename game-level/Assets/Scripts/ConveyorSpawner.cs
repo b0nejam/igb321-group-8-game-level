@@ -6,6 +6,11 @@ public class ConveyorSpawner : MonoBehaviour
 {
     public GameObject Box;
 
+    [SerializeField]
+    private float speed;
+    [SerializeField]
+    private Vector3 direction;
+
     public float spawnRate = 2.0f;
     private float spawnTimer;
 
@@ -30,5 +35,10 @@ public class ConveyorSpawner : MonoBehaviour
             spawnTimer = Time.time + spawnRate;
 
         }
+    }
+
+    private void SpawnForce()
+    {
+        Box.GetComponent<Rigidbody>().AddForce(speed * direction);
     }
 }
